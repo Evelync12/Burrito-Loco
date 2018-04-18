@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
+     <head>
 <title>Burrito Loco - Trivia Game!</title>
         <link rel="stylesheet" href="burritoloco.css">
+        <h1 class="title">
+        Burrito Loco
         <h1>
         <img src="">
         </h1>
@@ -10,39 +10,49 @@
     <center><body>
        <br> 
         <br>
+<button id="myButton" class="btn" >Start</button>
 <button id="myButton1" class="btn" >Start</button>
 
 <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
     document.getElementById("myButton1").onclick = function () {
         location.href = "";
     };
 </script>
         <br>
         <br>
-
+<button id="myButton" class="btn" >How to Play</button>
 <button id="myButton2" class="btn" >How to Play</button>
 
 <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
     document.getElementById("myButton2").onclick = function () {
         location.href = "";
-
-<button id="MyButton" class="btn" >How to Play</button>
-
-
-<script type="text/javascript">
-    document.getElementById("MyButton").onclick = function () {
-        location.href = "howtoplay.html";
->>>>>>> f678039801f723f187ed0c090b1c609fd78df100
     };
 </script>
         <br>
         <br>
+ <button id="myButton" class="btn" >Settings<img src="settings_icon.png"> </button>
  <button id="myButton3" class="btn" >Settings<img src="settings_icon.png"> </button>
 
 <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
     document.getElementById("myButton3").onclick = function () {
         location.href = "";
     };
 </script>
         </body></center>
+   <body>
+    <script type="text/javascript">
+        var score = 0;
+        function drawScore() {
+    ctx.font = "16px Arial";
+    ctx.fillStyle = "#fffcff";
+    ctx.fillText("Score: "+score, 8, 20);
+}
+       </script>
+    </body>
    
