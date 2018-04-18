@@ -1,58 +1,34 @@
      <head>
 <title>Burrito Loco - Trivia Game!</title>
         <link rel="stylesheet" href="burritoloco.css">
-        <h1 class="title">
-        Burrito Loco
         <h1>
         <img src="">
         </h1>
+        <center><h1>
+        <img src="burritologo.png">
+        </h1></center>
         </head>
     <center><body>
        <br> 
-        <br>
-<button id="myButton" class="btn" >Start</button>
-<button id="myButton1" class="btn" >Start</button>
+@ -23,16 +23,20 @@
 
 <script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "www.yoursite.com";
-    document.getElementById("myButton1").onclick = function () {
-        location.href = "";
-    };
-</script>
-        <br>
-        <br>
-<button id="myButton" class="btn" >How to Play</button>
-<button id="myButton2" class="btn" >How to Play</button>
-
-<script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "www.yoursite.com";
     document.getElementById("myButton2").onclick = function () {
-        location.href = "";
+        location.href = "howtoplay.html";
     };
 </script>
         <br>
         <br>
- <button id="myButton" class="btn" >Settings<img src="settings_icon.png"> </button>
  <button id="myButton3" class="btn" >Settings<img src="settings_icon.png"> </button>
+ <button id="myButton3" class="btn" >Mute Audio </button>
 
 <script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "www.yoursite.com";
     document.getElementById("myButton3").onclick = function () {
         location.href = "";
     };
 </script>
+        <audio id="background_audio" autoplay>
+        <source src="La%20Native%208-bit.wav" type="audio/wav">
+        </audio>
         </body></center>
-   <body>
-    <script type="text/javascript">
-        var score = 0;
-        function drawScore() {
-    ctx.font = "16px Arial";
-    ctx.fillStyle = "#fffcff";
-    ctx.fillText("Score: "+score, 8, 20);
-}
-       </script>
-    </body>
    
