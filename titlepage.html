@@ -7,7 +7,13 @@
         <img src="burritologo.png">
         </h1></center>
         </head>
+    
     <center><body>
+        
+        <audio id="backgroundaudio" autoplay="autoplay">
+        <source src="La%20Native%208-bit.wav" type="audio/wav">
+        </audio>
+        
        <br> 
         <br>
 <button id="myButton1" class="btn" >Start</button>
@@ -19,7 +25,7 @@
 </script>
         <br>
         <br>
-<button id="myButton2" class="btn" >How to Play</button>
+<button id="myButton2" class="btn">How to Play</button>
 
 <script type="text/javascript">
     document.getElementById("myButton2").onclick = function () {
@@ -28,15 +34,18 @@
 </script>
         <br>
         <br>
- <button id="myButton3" class="btn" >Settings<img src="settings_icon.png"> </button>
+ <button onclick="enableMute()" class="smbtn">Mute sound</button>
+ <button onclick="disableMute()" class="smbtn">Enable sound</button>
+        <script>
+var aud = document.getElementById("backgroundaudio");
 
-<script type="text/javascript">
-    document.getElementById("myButton3").onclick = function () {
-        location.href = "";
-    };
-</script>
-        <audio autoplay>
-        <source src="La%20Native%208-bit.wav" type="audio/wav">
-        </audio>
+function enableMute() { 
+    aud.muted = true;
+} 
+
+function disableMute() { 
+    aud.muted = false;
+} 
+</script> 
         </body></center>
    
