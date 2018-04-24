@@ -4,23 +4,24 @@
 <title>Burrito Loco - Trivia Game!</title>
         <link rel="stylesheet" href="burritoloco.css">
         <center><h1>
-        <img src="burritologo.png">
+            <img src="burritologo.png">
         </h1></center>
         </head>
     <center><body>
+        <audio id="backgroundaudio" autoplay="autoplay">
+        <source src="La%20Native%208-bit.wav" type="audio/wav">
+        </audio>
        <br> 
         <br>
-<button id="myButton1" class="btn" >Start</button>
-
+        <button id="myButton" class="btn" >Start</button>
 <script type="text/javascript">
-    document.getElementById("myButton1").onclick = function () {
-        location.href = "";
+    document.getElementById("myButton").onclick = function () {
+        location.href = "Category.html";
     };
 </script>
         <br>
         <br>
-<button id="myButton2" class="btn" >How to Play</button>
-
+<button id="myButton2" class="btn">How to Play</button>
 <script type="text/javascript">
     document.getElementById("myButton2").onclick = function () {
         location.href = "howtoplay.html";
@@ -28,15 +29,15 @@
 </script>
         <br>
         <br>
- <button id="myButton3" class="btn" >Mute Audio </button>
-
-<script type="text/javascript">
-    document.getElementById("myButton3").onclick = function () {
-        location.href = "";
-    };
-</script>
-        <audio id="background_audio" autoplay>
-        <source src="La%20Native%208-bit.wav" type="audio/wav">
-        </audio>
+ <button onclick="enableMute()" class="smbtn">Mute sound</button>
+ <button onclick="disableMute()" class="smbtn">Enable sound</button>
+ <script>
+var aud = document.getElementById("backgroundaudio");
+function enableMute() { 
+    aud.muted = true;
+} 
+function disableMute() { 
+    aud.muted = false;
+} 
+</script> 
         </body></center>
-   
