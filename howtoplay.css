@@ -1,7 +1,7 @@
 body{
     background-image: url(burritobackground.png)
 }
-h1{
+p1{
     text-align: center;
     font-family: Impact, sans-serif;
     color: black;
@@ -28,4 +28,19 @@ p{
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2.0px;
 }
-
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 3px 1px 3px #666666;
+  -webkit-box-shadow: 3px 1px 3px #666666;
+  -moz-box-shadow: 3px 1px 3px #666666;
+  box-shadow: 3px 1px 3px #666666;
+  font-family: Georgia;
+  color: #fffcff;
+  font-size: 60px;
+  background: #61c0ff;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 4px;
+  text-decoration: none;
+};
