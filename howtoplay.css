@@ -1,7 +1,7 @@
 body{
     background-image: url(burritobackground.png)
 }
-p1{
+h1{
     text-align: center;
     font-family: Impact, sans-serif;
     color: black;
@@ -43,4 +43,9 @@ p{
   padding: 10px 20px 10px 20px;
   border: solid #ffffff 4px;
   text-decoration: none;
+    -webkit-text-fill-color: white;
+
+position:absolute;
+top:0;
+left:0;
 };
