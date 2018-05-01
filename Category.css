@@ -94,4 +94,13 @@ background: #3cb0fd;
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-family: Impact, sans-serif;
+    color: black;
+    font-size: 50px;
+    -webkit-text-fill-color: #fff8d1;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
 };
