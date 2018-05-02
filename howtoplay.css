@@ -5,7 +5,7 @@ h1{
     text-align: center;
     font-family: Impact, sans-serif;
     color: black;
-    font-size: 100px;
+    font-size: 90px;
     -webkit-text-fill-color: #fff8d1;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 4px;
@@ -14,7 +14,7 @@ h3{
     text-align: center;
     font-family: Impact, sans-serif;
     color: black;
-    font-size: 45px;
+    font-size: 43px;
     -webkit-text-fill-color: #fff8d1;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2.5px;
@@ -23,7 +23,7 @@ p{
     text-align: center;
     font-family: Impact, sans-serif;
     color: black;
-    font-size: 33px;
+    font-size: 31px;
     -webkit-text-fill-color: #fff8d1;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2.0px;
@@ -45,7 +45,7 @@ p{
   text-decoration: none;
 
 position:absolute;
-top:15;
+top:20;
 left:10;
 }
 .btn:hover {
