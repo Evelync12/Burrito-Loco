@@ -8,9 +8,14 @@
         </h1></center>
         </head>
     <center><body>
-        <audio id="backgroundaudio" autoplay="autoplay">
-        <source src="La%20Native%208-bit.wav" type="audio/wav">
+        <audio id="backgroundaudio" src="La%20Native%208-bit.wav" loop="loop">
+<!--        <source src="La%20Native%208-bit.wav" type="audio/wav">-->
         </audio>
+        <script>
+            window.onload = function() {
+                document.getElementById("backgroundaudio").play();
+            }
+        </script>
        <br> 
         <br>
         <button id="myButton" class="btn" >Start</button>
